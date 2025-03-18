@@ -8,3 +8,4 @@ At first i have been inspited this project from Ola-Vish last one:
 https://github.com/Ola-Vish/lung-tumor-segmentation
 ```
 ### Model Structure
+![alt text](https://raw.githubusercontent.com/mahdizynali/Decathlon-lung-tumor-segmentation/refs/heads/main/display/segnet.jpg)
