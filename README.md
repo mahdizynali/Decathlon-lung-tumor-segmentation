@@ -9,3 +9,10 @@ https://github.com/Ola-Vish/lung-tumor-segmentation
 ```
 ### Model Structure
 ![alt text](https://raw.githubusercontent.com/mahdizynali/Decathlon-lung-tumor-segmentation/refs/heads/main/display/segnet.jpg)
+
+---
+| Dataset    | Dice | IoU | Loss  |
+|------------|------|-----|-------|
+| Train      | 94   | 88  | 0.002 |
+| Validation | 82   | 76  | 0.04  |
+---
