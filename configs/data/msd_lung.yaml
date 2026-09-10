@@ -1,0 +1,16 @@
+data:
+  name: msd_task06_lung
+  root: data/raw/Task06_Lung
+  images_train: imagesTr
+  labels_train: labelsTr
+  images_test: imagesTs
+  dataset_json: dataset.json
+  canonical_orientation: RAS
+  target_spacing: null  # Select from each training fold's dataset audit.
+  intensity:
+    lower_hu: null      # Select from training data and document justification.
+    upper_hu: null
+    normalization: null
+  patch_size: null      # Select after spacing/tumor-size and memory audits.
+  num_folds: 5
+  split_seed: 43

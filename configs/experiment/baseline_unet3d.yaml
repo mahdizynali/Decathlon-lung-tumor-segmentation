@@ -1,0 +1,19 @@
+experiment:
+  name: baseline_unet3d
+  seed: 43
+  fold: 0
+  epochs: 300
+  batch_size: 2
+  num_workers: 4
+  precision: "16-mixed"
+  deterministic: true
+  output_root: artifacts/runs
+optimizer:
+  name: adamw
+  learning_rate: 0.0001
+  weight_decay: 0.00001
+scheduler:
+  name: cosine
+inference:
+  overlap: 0.5
+  sliding_window_batch_size: 1

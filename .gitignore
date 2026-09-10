@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+
+# Medical data and generated artifacts
+/data/
+/artifacts/
+/final/
+/infer/
+/tb_logs/
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.pkl
+*.ckpt
+*.pth
+*.pt
+*.log
+events.out.tfevents.*
+*.tmp
+
+# Local experiment configuration
+.env
+configs/local/

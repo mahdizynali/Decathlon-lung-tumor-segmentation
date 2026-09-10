@@ -1,0 +1,17 @@
+experiment:
+  name: smoke
+  seed: 43
+  fold: 0
+  epochs: 2
+  batch_size: 1
+  num_workers: 0
+  precision: "32"
+  deterministic: true
+  output_root: artifacts/runs
+optimizer:
+  name: adamw
+  learning_rate: 0.001
+  weight_decay: 0.00001
+inference:
+  overlap: 0.25
+  sliding_window_batch_size: 1
