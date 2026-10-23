@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+
+message: "If you use this repository or its code in your research, please cite this software."
+
+type: software
+
+title: "Decathlon Lung Tumor Segmentation with a Custom SegNet Model"
+
+authors:
+  - family-names: "Zeinali"
+    given-names: "Mahdi"
+    affiliation: "Imam Khomeini International University"
+
+abstract: >-
+  Preliminary two-dimensional lung tumor segmentation using a customized
+  SegNet-based network with residual blocks and attention mechanisms,
+  implemented for CT images from the Medical Segmentation Decathlon Lung dataset.
+
+repository-code: "https://github.com/mahdizynali/Decathlon-lung-tumor-segmentation"
+
+url: "https://github.com/mahdizynali/Decathlon-lung-tumor-segmentation"
+
+license: "GPL-3.0-only"
