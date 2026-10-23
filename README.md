@@ -1,5 +1,5 @@
 ### Introduction
-This repository contains a custom SegNet-based deep learning model for segmenting lung tumor regions from MRI scans, specifically using the Decathlon Lung Tumor dataset (via Kaggle).
+This repository contains a custom SegNet-based deep learning model for segmenting lung tumor regions from CT scans, specifically using the Decathlon Lung Tumor dataset (via Kaggle).
 The architecture has been enhanced with Residual Blocks and Attention Mechanisms, which significantly improve segmentation accuracy by allowing the model to learn deeper and more relevant features from the data.
 ```
 https://goo.gl/QzVZcm
